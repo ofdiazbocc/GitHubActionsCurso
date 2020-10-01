@@ -1,0 +1,21 @@
+name: Primer workflow
+#on : cuando se va ejecutar la acción
+#El workflow se ejecuta en base a un evento
+#push, pull request, isuues
+on: [push]
+#Que se va ejecutar
+jobs:
+  #Nombre del job "builds"
+  build:
+    #Donde se ejecuta esto
+    runs-on: ubuntu-latest
+    #Pasos a seguir
+    #Array de elementos [], o con "- "
+    steps:
+      #Checkout de git
+      - uses: actions/checkout@v1
+      #github es un elemento
+      - name: Hello Codelies!
+        #Imprimir en ubuntu
+        run: echo "Hello!!!" from ${{ github.workflow}} trigered by the ${{ github.event}}
+
