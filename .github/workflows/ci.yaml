@@ -1,8 +1,16 @@
 name: Primer workflow
 #on : cuando se va ejecutar la acción
 #El workflow se ejecuta en base a un evento
-#push, pull request, isuues
+#push, pull request, issues
 on: [push]
+#on:
+  #push:
+    #branches: [master]
+  #pull_request:
+    #branches: [master]
+#   Controls when the action will run. Triggers the workflow on push or pull request
+#   events but only for the master branch / Ejemplo  de como se puede hacer un seguimiento
+#   "cuando se hace un push o un pull_request en la rama master"
 #Que se va ejecutar
 jobs:
   #Nombre del job "builds"
@@ -18,6 +26,9 @@ jobs:
       - name: Hello Codelies!
         #Imprimir en ubuntu
         run: echo "Hello!!!! from ${{ github.workflow }} triggered by the ${{ github.event_name }} done by ${{ github.actor }}"
+        #gitgub.workflow -> Primer workflow -> name
+        #github.event_name -> [push] -> on
+        #github.actor -> usuario de GitHub quien hace el evento
 
 #Probar commits en GitHub
 #Hacer push desde el IDE "IntelliJ"
