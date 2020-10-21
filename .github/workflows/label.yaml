@@ -1,0 +1,37 @@
+#Nombre del workflow
+name: labeler
+#Se ejecuta con el evento pull request, no importa la rama
+on: [pull_request]
+#Que se va ejevutar
+#jobs:
+  #labeler: Este es el nombre del job o uno de los jobs si no se especifica el "name"
+jobs:
+  runs-on: ubuntu-latest
+  name: Label the Pull Request
+  #Pasos
+  steps:
+    -name: Pull request size labeler
+      #Usa el repo "codelytv/pr-size-labeler" rama master
+      #Acción de codelytv
+      #uses: codelytv/pr-size-labeler@v1.2.1 -> usar versión de la acción
+      uses: codelytv/pr-size-labeler@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+        #Donde se especifica el tamaño mayor de las labels, se especifica en string
+        #Número de cambios absoluto (lineas de código eliminadas y agregadas)
+        #Se especifica el número mayor de cambios para catalogar pull request
+        #Valores pequeños para probar las labels sin hacer cambios muy grandes, estos valores
+        #pueden ser modificados según se especifique.
+        xs_max_size: '1'
+        s_max_size: '2'
+        m_max_size: '3'
+        l_max_size: '4'
+        #Check o requisito configurado en el repositorio para hacer merge.
+        #Si este valor es 'false' no hará fallar todas las pull request mayores que l_max_size.
+        fail_if_xl: 'true'
+        #message_if_xl: 'This PR is so big! Please, split it'
+        #Probable mensaje si la pull request es xl, aprobaba en otras versiones de la acción.
+
+#Probar hacer ramas en GitHub
+#Hacer pull request desde el IDE
+
