@@ -20,10 +20,10 @@ jobs:
           #Se especifica el número mayor de cambios para catalogar pull request
           #Valores pequeños para probar las labels sin hacer cambios muy grandes, estos valores
           #pueden ser modificados según se especifique.
-          xs_max_size: '1'
-          s_max_size: '2'
-          m_max_size: '3'
-          l_max_size: '4'
+          xs_max_size: '100'
+          s_max_size: '200'
+          m_max_size: '300'
+          l_max_size: '400'
           #Check o requisito configurado en el repositorio para hacer merge.
           #Si este valor es 'false' no hará fallar todas las pull request mayores que l_max_size.
           fail_if_xl: 'true'
@@ -33,3 +33,4 @@ jobs:
 #Probar hacer ramas en GitHub
 #Hacer pull request desde el IDE
 #Probando fallas de la acción
+#Probando ramas
