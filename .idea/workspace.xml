@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:testlabel" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bae9ec74-c1f3-4a34-b4d0-9ac6aece0bad" name="Default Changelist" comment="Arreglo sintaxis label.yaml (jobs: labeler)">
+      <change afterPath="$PROJECT_DIR$/prueba/estilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iHx7IRpWA8myDsrS43QJpeSAF5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/PocUrbanCode/DevOps-PoC-UrbanCode" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bae9ec74-c1f3-4a34-b4d0-9ac6aece0bad" name="Default Changelist" comment="" />
+      <created>1601578150471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601578150471</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit inicial estructura de GitHubActions">
+      <created>1601580694186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601580694186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit inicial estructura de GitHubActions">
+      <created>1601580856573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601580856573</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Probando primera acción">
+      <created>1602874438301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602874438301</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Probando primera acción con un &quot;index.html&quot;">
+      <created>1602885523363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602885523364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Comentando el primer workflow">
+      <created>1603309015747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603309015747</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Acción de etiqueta automática de Pull Request en base a su tamaño/comentada">
+      <created>1603318418299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603318418299</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Arreglo sintaxis label.yaml (jobs: labeler)">
+      <created>1603474830059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603474830059</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="testlabel" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit inicial estructura de GitHubActions" />
+    <MESSAGE value="Probando primera acción" />
+    <MESSAGE value="Probando primera acción con un &quot;index.html&quot;" />
+    <MESSAGE value="Comentando el primer workflow" />
+    <MESSAGE value="Acción de etiqueta automática de Pull Request en base a su tamaño/comentada" />
+    <MESSAGE value="Arreglo sintaxis label.yaml (jobs: labeler)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo sintaxis label.yaml (jobs: labeler)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="42" key="#Inspections" timestamp="1603473808112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603473808112" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601581122854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601581122854" />
+    <state x="209" y="105" key="FileChooserDialogImpl" timestamp="1603406192542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="209" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603406192542" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1601581014994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1601581014994" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1601581015010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1601581015010" />
+    <state x="396" y="66" key="RollbackChangesDialog" timestamp="1601580636059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="396" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601580636059" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1603403343236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603403343236" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603463272152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603463272152" />
+    <state x="465" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603408672079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603408672079" />
+    <state x="65" y="0" key="new project wizard" timestamp="1603404566757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1603404566757" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1602876376204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602876376204" />
+    <state x="4" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603309061540">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="4" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603309061540" />
+  </component>
+</project>
