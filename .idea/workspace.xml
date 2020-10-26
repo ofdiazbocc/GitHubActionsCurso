@@ -26,7 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae9ec74-c1f3-4a34-b4d0-9ac6aece0bad" name="Default Changelist" comment="Comentando final label.yaml" />
+    <list default="true" id="bae9ec74-c1f3-4a34-b4d0-9ac6aece0bad" name="Default Changelist" comment="Comentando final label.yaml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/label.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/label.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +167,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/testlabel" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

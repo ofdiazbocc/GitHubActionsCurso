@@ -20,10 +20,10 @@ jobs:
           #Se especifica el número mayor de cambios para catalogar pull request
           #Valores pequeños para probar las labels sin hacer cambios muy grandes, estos valores
           #pueden ser modificados según se especifique.
-          xs_max_size: '100'
-          s_max_size: '200'
-          m_max_size: '300'
-          l_max_size: '400'
+          xs_max_size: '5'
+          s_max_size: '10'
+          m_max_size: '15'
+          l_max_size: '20'
           #Check o requisito configurado en el repositorio para hacer merge.
           #Si este valor es 'false' no hará fallar todas las pull request mayores que l_max_size.
           fail_if_xl: 'true'
