@@ -17,9 +17,6 @@ jobs:
           operation: 'update'
           classpath: 'resources/changelogs'
           changeLogFile: 'changelog-table1-01.sql'
-          #username: ${{ secrets.USERNAME }}
           username: ofdiaz
-          #password: ${{ secrets.PASSWORD }}
           password: Occ#123456
-          #url: ${{ secrets.URL }}
-          url:  jdbc:oracle:thin:@40.114.118.143:1521/xe
+          url: jdbc:oracle:thin:@40.114.118.143:1521/xe
