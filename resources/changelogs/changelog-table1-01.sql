@@ -14,5 +14,5 @@ insert into test1 (id, description) values (6, 'Description for 6');
 insert into test1 (id, description) values (7, 'Description for 7');
 insert into test1 (id, description) values (8, 'Description for 8');
 insert into test1 (id, description) values (9, 'Description for 9');
-insert into test1(id, description) values (10, 'Description for 10');
+insert into test1 (id, description) values (10, 'Description for 10');
 --rollback delete from test1 where id in (1,2,3,4,5,6,7,8,9,10);

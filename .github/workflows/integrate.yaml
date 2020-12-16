@@ -15,7 +15,7 @@ jobs:
 
         with:
           operation: 'update'
-          classpath: 'resources/changelogs'
+          classpath: 'resources/changelog'
           changeLogFile: 'changelog-table1-01.sql'
           username: ofdiaz
           password: Occ#123456
