@@ -1,4 +1,4 @@
-me: Conection DB
+name: Conection DB
 
 on: [push]
 
@@ -12,7 +12,7 @@ jobs:
       - name: Ejecucion liquibase
 
         uses: liquibase/liquibase-github-action@v1
-        
+
         with:
           operation: 'update'
           classpath: 'resources/changelogs'
