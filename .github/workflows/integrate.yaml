@@ -1,0 +1,25 @@
+me: Conection DB
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Ejecucion liquibase
+
+        uses: liquibase/liquibase-github-action@v1
+        
+        with:
+          operation: 'update'
+          classpath: 'resources/changelogs'
+          changeLogFile: 'changelog-table1-01.sql'
+          #username: ${{ secrets.USERNAME }}
+          username: ofdiaz
+          #password: ${{ secrets.PASSWORD }}
+          password: Occ#123456
+          #url: ${{ secrets.URL }}
+          url:  jdbc:oracle:thin:@40.114.118.143:1521/xe
