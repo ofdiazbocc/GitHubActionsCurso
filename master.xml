@@ -7,11 +7,11 @@
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
 
-	<include file="resouces/changelogs/changelog-table1-01.sql"
-		relativeToChangelogFile="true" />
-    <include file="resouces/changelogs/changelog-table1-02.sql"
-		relativeToChangelogFile="true" />
-    <include file="resouces/changelogs/changelog-table1-03.sql"
+	<!-- <include file="/resouces/changelogs/changelog-table1-01.sql"
+		relativeToChangelogFile="true" /> -->
+    <!--    <include file="/resouces/changelogs/changelog-table1-02.sql"
+		relativeToChangelogFile="true" /> -->
+    <include file="/resouces/changelogs/changelog-table1-03.sql"
 		relativeToChangelogFile="true" />
 
 </databaseChangeLog>
