@@ -12,9 +12,8 @@ jobs:
       - uses: jecuevas/Liquibase-actions@v1
         with:
           operation: 'update'
-          classpath: 'resources/changelogs'
-          changeLogFile: 'changelog-table1-01.sql'
-          driver: 'oracle.jdbc.OracleDriver'
+          classpath: 'resources/drivers/OracleDriver.jar'
+          changeLogFile: 'resources/changelogs/changelog-table1-01.sql'
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
