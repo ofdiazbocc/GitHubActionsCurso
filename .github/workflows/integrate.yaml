@@ -20,3 +20,8 @@ jobs:
           username: 'ofdiaz'
           password: 'Occ#123456'
           url: 'jdbc:oracle:thin:@40.114.118.143:1521/xe'
+      
+      - name: permissions test
+
+        run:
+          ls -l docker-entrypoint.sh
