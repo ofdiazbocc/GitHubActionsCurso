@@ -13,7 +13,8 @@ jobs:
         with:
           operation: 'update'
           classpath: 'resources/drivers/OracleDriver.jar'
-          changeLogFile: 'resources/changelogs/changelog-table1-03.sql'
+          #changeLogFile: 'resources/changelogs/changelog-table1-03.sql'
+          changeLogFile: 'master.xml'
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
