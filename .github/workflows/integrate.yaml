@@ -8,6 +8,7 @@ jobs:
     name: Test Liquibase Action
     steps:
       - uses: actions/checkout@v2
+      - run: 'echo ${{ secrets.USERNAME }}'
       - uses: liquibase/liquibase-github-action@v1
         with:
           operation: 'update'
@@ -16,5 +17,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
+      
       
       
