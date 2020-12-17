@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: liquibase/liquibase-github-action@v1
         with:
-          operation: 'status'
+          operation: 'update'
           classpath: 'resources/changelogs'
           changeLogFile: 'changelog-table1-01.sql'
           username: ${{ secrets.USERNAME }}
