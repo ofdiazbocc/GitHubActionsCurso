@@ -8,8 +8,8 @@ jobs:
     name: Test Liquibase Action
     steps:
       - uses: actions/checkout@v2
-      - run: 'echo ${{ secrets.USERNAME }}'
-      - uses: liquibase/liquibase-github-action@v1
+      #- uses: liquibase/liquibase-github-action@v1
+      - uses: jecuevas/Liquibase-actions@v1
         with:
           operation: 'update'
           classpath: 'resources/changelogs'
