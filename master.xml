@@ -9,8 +9,8 @@
 
 	<!-- <include file="resources/changelogs/changelog-table1-01.sql"
 		relativeToChangelogFile="true" /> -->
-    <!--    <include file="resources/changelogs/changelog-table1-02.sql"
-		relativeToChangelogFile="true" /> -->
+    <include file="resources/changelogs/changelog-table1-02.sql"
+		relativeToChangelogFile="true" /> 
     <include file="resources/changelogs/changelog-table1-03.sql"
 		relativeToChangelogFile="true" />
 
